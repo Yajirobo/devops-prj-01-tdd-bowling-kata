@@ -1,0 +1,36 @@
+{
+  "name": "devops-prj-01-tdd-bowling-kata",
+  "version": "1.0.0",
+  "description": "devops projet 1 tdd bowling_kata",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit" : "cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yajirobo/devops-prj-01-tdd-bowling-kata.git"
+  },
+  "keywords": [
+    "devOps",
+    "tdd",
+    "bowling",
+    "ci",
+    "git"
+  ],
+  "author": "ast",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yajirobo/devops-prj-01-tdd-bowling-kata/issues"
+  },
+  "homepage": "https://github.com/Yajirobo/devops-prj-01-tdd-bowling-kata#readme",
+  "devDependencies": {
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
