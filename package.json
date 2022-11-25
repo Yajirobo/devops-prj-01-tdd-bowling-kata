@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "test": "mocha",
-    "commit": "cz"
+    "commit": "cz",
+    "prettier" : "prettier -c \"src/**/*.js\"",
+    "prettier:fix":"prettier -w \"src/**/*.js\""
   },
   "repository": {
     "type": "git",
@@ -29,7 +31,8 @@
     "chai": "^4.3.7",
     "commitizen": "^4.2.5",
     "cz-conventional-changelog": "^3.3.0",
-    "mocha": "^10.1.0"
+    "mocha": "^10.1.0",
+    "prettier": "2.8.0"
   },
   "config": {
     "commitizen": {

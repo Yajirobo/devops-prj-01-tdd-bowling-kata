@@ -1,5 +1,5 @@
 const calScore = (rolls) => {
-    return -1;
-}
+  return -1;
+};
 
-export { calScore}
+export { calScore };
