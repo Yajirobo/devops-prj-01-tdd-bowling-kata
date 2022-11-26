@@ -8,7 +8,10 @@
     "test": "mocha",
     "commit": "cz",
     "prettier": "prettier -c \"src/**/*.js\"",
-    "prettier:fix": "prettier -w \"src/**/*.js\""
+    "prettier:fix": "prettier -w \"src/**/*.js\"",
+    "lint":"eslint \"srx/**/*.js\"",
+    "lint:fix:":"eslint --fix \"srx/**/*.js\"",
+    "code:fix":"npm run prettier:fix && npm run lint:fix"
   },
   "repository": {
     "type": "git",
